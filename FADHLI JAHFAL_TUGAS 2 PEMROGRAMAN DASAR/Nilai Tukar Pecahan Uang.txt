@@ -1,0 +1,39 @@
+Algoritma_Membaca_nilai_uang_dalam_kelipatan_25_dan_menentukan_berapa_nilai_tukaran_pecahan
+
+
+deklarasi
+kelipatan_uang, uang_1000, uang_500, uang_100, uang_50, uang_25, sisa_uang	:	INTEGER;
+
+
+algoritma
+
+start
+
+write("Masukan Nilai Uang: ");
+read(kelipatan_uang);
+
+uang_1000 = kelipatan_uang div 1000;
+sisa_uang = kelipatan_uang mod 1000;
+
+uang_500 = sisa_uang div 500;
+sisa_uang = sisa_uang mod 500;
+
+uang_100 = sisa_uang div 100;
+sisa_uang = sisa_uang mod 100;
+
+uang_50 = sisa_uang div 50;
+sisa_uang = sisa_uang mod 50;
+
+uang_25 = sisa_uang div 25;
+sisa_uang = sisa_uang mod 25;
+
+
+write(uang_1000, "Pecahan Rp.1000");
+write(uang_500, "Pecahan Rp.500");
+write(uang_100, "Pecahan Rp.100");
+write(uang_50, "Pecahan Rp.50");
+write(uang_25, "Pecahan Rp.25");
+
+read;
+
+end

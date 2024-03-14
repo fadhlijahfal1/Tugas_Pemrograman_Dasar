@@ -1,0 +1,1 @@
+Algoritma ini akan gagal ketika saat akan memberikan permen kepada masing masing anak, dikarenakan kantung permennya kosong. Hal ini menyebabkan pemroses tidak dapat menjalankan algoritma tersebut dan demikian algoritma gagal.
